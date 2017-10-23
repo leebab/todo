@@ -1,0 +1,35 @@
+.todoItem {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: #34373d;
+}
+.todoItem button {
+    border: none;
+    background: #ffffff;
+}
+.todoItem .completed {
+    margin-left: 2px;
+}
+.todoItem .completed.color {
+    color: #37cf90;
+}
+.todoItem .title {
+    flex: 1;
+    margin-left: 10px;
+}
+.todoItem .title.through {
+    color: #ddd;
+    text-decoration: line-through;
+}
+.todoItem .close {   
+    font-size: 20px;
+    color: red;
+    visibility: hidden;
+}
+.todoItem:hover .close {
+    visibility: visible;
+}

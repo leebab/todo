@@ -1,0 +1,17 @@
+.todoInput {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+.todoInput .icon {
+    font-size: 20px;
+    color: #465efc;
+}
+.todoInput input {
+    flex: 1;
+    margin-left: 10px;
+    border: none;
+    outline: medium;
+    font-size: 15px;
+}

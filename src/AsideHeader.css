@@ -1,0 +1,23 @@
+.AsideHeader {
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ededed;
+}
+.AsideHeader .avatar {
+    background: #ededed;
+    color: #767678;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 28px;
+}
+.AsideHeader .exit {
+    color: red;
+    cursor: pointer;
+    font-size: 24px;
+}
+.AsideHeader .title {
+    color: #34373d;
+    font-size: 15px;
+}

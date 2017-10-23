@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.UserDialog-Wrapper {
+    z-index: 3333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./img/userdialog_bg.jpg) fixed center center;
+}
+.UserDialog {
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+}
+.UserDialog h1 {
+    text-align: center;
+    font: 23px "microsoft yahei",Helvetica,Tahoma,Arial,"Microsoft jhengHei",sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+}
+.panes .input-outer {
+    height: 46px;
+    padding: 0 5px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    position: relative;
+    border: rgba(255,255,255,0.2) 2px solid !important;
+}
+.panes .submit button{
+    width: 100%;
+    display: block;
+    padding: 15px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    background: #0096e6;
+    outline: medium;
+}
+.panes .submit button:hover {
+    opacity: 0.8;
+}
+.input-outer span {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin: 9px 13px;
+}
+.input-outer .email-icon {
+    background: url(./img/login_ico.png);
+    background-position: -85px 0;
+}
+.input-outer .user-icon {
+    background: url(./img/login_ico.png);
+    background-position: -125px 0;
+}
+.input-outer .pwd-icon {
+    background: url(./img/login_ico.png);
+    background-position: -125px -34px;
+}
+.input-outer input {
+    height: 46px;
+    margin-left: 50px;
+    width: 220px;
+    border: none;
+    color: #ffffff;
+    outline: medium;
+    background: none; 
+    position: relative;
+    top: -2px;
+}
+.panes .help {
+    display: flex;
+    justify-content: flex-end;    
+}
+.help a {
+    font: 14px "microsoft yahei",Helvetica,Tahoma,Arial,"Microsoft jhengHei",sans-serif;
+    color: #aaa;
+    margin-right: 10px;
+}
+.help a:first-child {
+    text-decoration: underline;
+}

@@ -1,0 +1,27 @@
+.MainHeader {
+    height: 118px;
+    display: flex;
+}
+.MainHeader .header-content {
+    align-self: flex-end;
+}
+.MainHeader .header-content h1 {
+    color: #ffffff;
+    font-weight: 100;
+    margin: 0;
+    padding: 6px;
+    font-size: 37px;
+    line-height: 37px;
+    letter-spacing: -.34px;
+    font-weight: 100;
+}
+.MainHeader .header-content .groupInput {
+    font-size: 37px;
+    border: none;
+    line-height: 37px;
+    letter-spacing: -.34px;
+    padding: 6px;
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.2);
+    outline: medium;
+}
